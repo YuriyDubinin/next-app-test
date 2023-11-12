@@ -11,9 +11,7 @@ export default function AccountID() {
         <div>
             <h1>admintID: {params.id}</h1>
             <ul>
-                <li
-                    onClick={() => router.push('/admins')}
-                >{`<- Back to list of admins`}</li>
+                <li onClick={() => router.push('/admins')}>{`<- Back to list of admins`}</li>
             </ul>
         </div>
     );

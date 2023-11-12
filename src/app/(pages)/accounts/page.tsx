@@ -1,9 +1,13 @@
 'use client';
 
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function Accounts() {
     const router = useRouter();
+
+    const [isAdmin, setIsAdmin] = useState(false);
+
     console.log('router: ', router);
     return (
         <div>

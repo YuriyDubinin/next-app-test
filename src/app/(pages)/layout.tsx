@@ -1,10 +1,5 @@
-import type { PropsWithChildren } from "react";
+import type { PropsWithChildren } from 'react';
 
 export default function MainLayout({ children }: PropsWithChildren<unknown>) {
-    return (
-        <div>
-            * header *
-            {children}
-        </div>
-    );
+    return <div>* header *{children}</div>;
 }

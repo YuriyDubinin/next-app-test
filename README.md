@@ -4,10 +4,9 @@
 
 ## Features/highlights
 
-- server components
-- routing
-- layouts
-
+-   server components
+-   routing
+-   layouts
 
 ## Setup
 
@@ -17,4 +16,3 @@ $ cd next-app-test
 $ npm i
 $ npm run dev
 ```
-

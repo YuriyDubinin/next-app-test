@@ -21,9 +21,7 @@ export default function WalletID() {
                         <li
                             onClick={() => router.push(`/accounts/${params.id}/wallets`)}
                         >{`<- account`}</li>
-                        <li
-                            onClick={() => router.push('/accounts')}
-                        >{`<- list of accounts`}</li>
+                        <li onClick={() => router.push('/accounts')}>{`<- list of accounts`}</li>
                     </ul>
                 </ul>
             </>

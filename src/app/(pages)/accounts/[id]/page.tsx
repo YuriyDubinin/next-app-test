@@ -11,12 +11,8 @@ export default function AccountID() {
         <div>
             <h1>accountID: {params.id}</h1>
             <ul>
-                <li
-                    onClick={() => router.push(`/accounts/${params.id}/wallets`)}
-                >{`$ wallets`}</li>
-                <li
-                    onClick={() => router.push('/accounts')}
-                >{`<- Back to list of accounts`}</li>
+                <li onClick={() => router.push(`/accounts/${params.id}/wallets`)}>{`$ wallets`}</li>
+                <li onClick={() => router.push('/accounts')}>{`<- Back to list of accounts`}</li>
             </ul>
         </div>
     );
