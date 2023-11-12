@@ -19,10 +19,10 @@ export default function WalletID() {
                     <li>mokData 2:@$$@$2@#423$23$23$24fW4W$</li>
                     <ul>
                         <li
-                            onClick={() => router.push(`/pages/accounts/${params.id}/wallets`)}
+                            onClick={() => router.push(`/accounts/${params.id}/wallets`)}
                         >{`<- account`}</li>
                         <li
-                            onClick={() => router.push('/pages/accounts')}
+                            onClick={() => router.push('/accounts')}
                         >{`<- list of accounts`}</li>
                     </ul>
                 </ul>

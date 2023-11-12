@@ -4,8 +4,10 @@
 
 ## Features/highlights
 
-- routing
 - server components
+- routing
+- layouts
+
 
 ## Setup
 
