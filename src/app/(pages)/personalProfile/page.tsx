@@ -1,5 +1,3 @@
-import { use } from 'react';
-
 // SSR | SSG | ISR
 const fetchData = async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/todos/1', {
@@ -8,6 +6,7 @@ const fetchData = async () => {
     });
     return await response.json();
 };
+
 export default async function PersonalProfile() {
     const data = await fetchData();
 
