@@ -1,5 +1,15 @@
 import type { PropsWithChildren } from 'react';
 
-export default function MainLayout({ children }: PropsWithChildren<unknown>) {
-    return <div>* header *{children}</div>;
+import Header from '@/components/Header';
+
+export default function PagesLayout({ children }: PropsWithChildren<unknown>) {
+    const name = 'Yura';
+    const surname = 'Dubinin';
+
+    return (
+        <>
+            <Header name={name} surname={surname} />
+            <div>{children}</div>
+        </>
+    );
 }

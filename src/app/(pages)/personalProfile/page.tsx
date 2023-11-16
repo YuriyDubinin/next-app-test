@@ -10,7 +10,6 @@ const fetchData = async () => {
 export default async function PersonalProfile() {
     const data = await fetchData();
 
-    console.log(data);
     return (
         <div>
             <h1>Personal Profile</h1>
