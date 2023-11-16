@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 
 export default function AccountID() {
@@ -11,7 +12,7 @@ export default function AccountID() {
         <div>
             <h1>admintID: {params.id}</h1>
             <ul>
-                <li onClick={() => router.push('/admins')}>{`<- Back to list of admins`}</li>
+                <Link href="/admins">{'<- Back to list of admins'}</Link>
             </ul>
         </div>
     );

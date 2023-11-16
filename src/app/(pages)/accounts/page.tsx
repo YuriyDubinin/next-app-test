@@ -11,12 +11,11 @@ export default function Accounts() {
 
     const [isAdmin, setIsAdmin] = useState(false);
 
-    console.log('router: ', router);
     return (
         <div>
             <h1>list of accounts</h1>
             <>
-                <ul className='list'>
+                <ul className="list">
                     <Link href="/accounts/1">account #1</Link>
                     <Link href="/accounts/2">account #2</Link>
                     <Link href="/accounts/3">account #3</Link>
@@ -29,10 +28,7 @@ export default function Accounts() {
                             },
                         }}
                     >
-                        <div>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptatem
-                            dolorum tempore vero eligendi.
-                        </div>
+                        <div>Premium user</div>
                     </Link>
                 </ul>
             </>

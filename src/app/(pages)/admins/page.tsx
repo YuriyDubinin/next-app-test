@@ -3,20 +3,18 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
+import './styles/style.css';
+
 export default function Admins() {
     const router = useRouter();
-    console.log('router: ', router);
+
     return (
         <div>
             <h1>list of admins</h1>
             <>
-                <ul>
-                    <li className="btn btn-green" onClick={() => router.push('/admins/1')}>
-                        admin #1
-                    </li>
-                    <li className="btn btn-green" onClick={() => router.push('/admins/2')}>
-                        admin #2
-                    </li>
+                <ul className="list">
+                    <Link href="/admins/1">admin #1</Link>
+                    <Link href="/admins/2">admin #2</Link>
                 </ul>
             </>
         </div>
