@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-import './styles/style.css';
+import styles from './styles/index.module.css';
 
 export default function Accounts() {
     const router = useRouter();
@@ -15,7 +15,7 @@ export default function Accounts() {
         <div>
             <h1>list of accounts</h1>
             <>
-                <ul className="list">
+                <ul className={styles.list}>
                     <Link href="/accounts/1">account #1</Link>
                     <Link href="/accounts/2">account #2</Link>
                     <Link href="/accounts/3">account #3</Link>

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 
-import './styles/style.css';
+import styles from './styles/index.module.css';
 
 export default function AccountID() {
     const params = useParams();
@@ -12,7 +12,7 @@ export default function AccountID() {
     return (
         <div>
             <h1>accountID: {params.id}</h1>
-            <ul className="list">
+            <ul className={styles.list}>
                 <Link href={`/accounts/${params.id}/wallets`}>wallets</Link>
                 <Link href="/accounts">{`<- Back to list of accounts`}</Link>
             </ul>

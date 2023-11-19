@@ -1,10 +1,14 @@
 import { cookies } from 'next/headers';
 
+import styles from './styles/index.module.css';
+
+import Background from '@/components/Backgrond';
+
 export default function Main() {
     console.log('cookie: ', cookies().getAll());
     return (
-        <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <div className="">main</div>
+        <main className={styles.main}>
+            <Background />
         </main>
     );
 }

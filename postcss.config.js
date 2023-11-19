@@ -1,6 +1,9 @@
-module.exports = {
+export const plugins = {
+    syntax: 'postcss-scss',
+    map: false,
     plugins: {
-        tailwindcss: {},
-        autoprefixer: {},
+        'css-declaration-sorter': { order: 'smacss' },
     },
+    tailwindcss: {},
+    autoprefixer: {},
 };
