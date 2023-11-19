@@ -1,8 +1,7 @@
 import Image from 'next/image';
 
-import './styles/index.css';
-
 import background from '../../../public/background-main.jpg';
+import './styles/index.css';
 
 export default function Background(props: any) {
     return (

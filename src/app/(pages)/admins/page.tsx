@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-import styles from './styles/index.module.css';
+import styles from './styles/style.module.css';
 
 export default function Admins() {
     const router = useRouter();

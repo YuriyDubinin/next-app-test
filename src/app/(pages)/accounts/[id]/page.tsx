@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useParams, useRouter } from 'next/navigation';
 
-import styles from './styles/index.module.css';
+import styles from './styles/style.module.css';
 
 export default function AccountID() {
     const params = useParams();

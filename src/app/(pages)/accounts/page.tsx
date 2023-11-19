@@ -1,10 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
-import styles from './styles/index.module.css';
+import styles from './styles/style.module.css';
 
 export default function Accounts() {
     const router = useRouter();
