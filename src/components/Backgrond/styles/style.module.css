@@ -1,0 +1,38 @@
+.background {
+    border-radius: 40%;
+    overflow: hidden;
+    opacity: 0;
+    animation:
+        backgroundAppearance 3s ease-out 0.3s forwards,
+        backgroundPulse 21s ease 3.3s infinite;
+}
+
+.background img {
+    filter: brightness(72%);
+}
+
+@keyframes backgroundAppearance {
+    0% {
+        filter: blur(1.8px);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1.8);
+    }
+}
+
+@keyframes backgroundPulse {
+    0% {
+        transform: scale(1.8);
+    }
+
+    50% {
+        transform: scale(2.3);
+    }
+
+    100% {
+        transform: scale(1.8);
+    }
+}

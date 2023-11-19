@@ -1,4 +1,4 @@
-body .light-theme {
+body .lightTheme {
     --app-background: var(--grey-50);
     --app-background-section: var(--white);
     --app-background-box: var(--white);
@@ -46,7 +46,7 @@ body .light-theme {
     --editor-default-color: var(--black);
 }
 
-body .dark-theme {
+body .darkTheme {
     --app-background: var(--black);
     --app-background-section: var(--black-900);
     --app-background-box: var(--black-800);
