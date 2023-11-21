@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import Background from '@/components/Backgrond';
+import styles from './styles/style.module.css';
 
 export const metadata: Metadata = {
     title: 'Page not found',
@@ -6,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function NotFound() {
-    return <div>Not found</div>;
+    return (
+        <main className={styles.main}>
+            <Background src={'DEFAULT'} />
+        </main>
+    );
 }

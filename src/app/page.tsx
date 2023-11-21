@@ -26,7 +26,7 @@ export default function Main() {
     console.log('cookie: ', cookies().getAll());
     return (
         <main className={styles.main}>
-            <Background />
+            <Background src={'MAIN'} />
         </main>
     );
 }

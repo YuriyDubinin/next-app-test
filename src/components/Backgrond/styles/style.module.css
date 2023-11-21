@@ -1,10 +1,11 @@
 .background {
-    border-radius: 40%;
-    overflow: hidden;
     opacity: 0;
+    overflow: hidden;
     animation:
-        backgroundAppearance 3s ease-out 0.3s forwards,
-        backgroundPulse 21s ease 3.3s infinite;
+        backgroundAppearance 1.2s ease-out forwards,
+        backgroundPulse 21s ease 1.2s infinite;
+
+
 }
 
 .background img {
@@ -13,6 +14,7 @@
 
 @keyframes backgroundAppearance {
     0% {
+        transform: scale(2.3);
         filter: blur(1.8px);
         opacity: 0;
     }
