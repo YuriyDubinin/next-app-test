@@ -1,5 +1,6 @@
-import type { Metadata } from 'next';
 import Background from '@/components/Backgrond';
+import type { Metadata } from 'next';
+
 import styles from './styles/style.module.css';
 
 export const metadata: Metadata = {

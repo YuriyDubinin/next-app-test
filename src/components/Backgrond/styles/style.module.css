@@ -4,8 +4,6 @@
     animation:
         backgroundAppearance 1.2s ease-out forwards,
         backgroundPulse 21s ease 1.2s infinite;
-
-
 }
 
 .background img {
